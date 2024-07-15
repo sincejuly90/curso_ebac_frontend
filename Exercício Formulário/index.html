@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <form id="form-confirm">
+                <label for="A"><b>Valor A</b></label>
+                <input type="number" id="valor-a" required placeholder="Digite aqui" />
+                <label for="B"><b>Valor B</b></label>
+                <input type="number" id="valor-b" required placeholder="Digite aqui" />
+                <p class="error-message">
+                    O valor B precisa ser maior que o valor A!
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+            <p class="success-message"></p>
+        </div>
+    </nav> 
+<script src="./main.js"></script>
+</body>
+</html>
